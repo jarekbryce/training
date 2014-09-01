@@ -7,7 +7,7 @@ tries = 0
 easygui.msgbox("""AHOY!  I'm the dred Pirate Robberts, and I have a secret!
 It is a number from 1 to 99.  I'll give you 5 tries to guess it.""")
 
-while guess != secret and tries < 6:
+while guess != secret and tries < 5:
     guess = easygui.integerbox("What's yer guess, matey?")
     if not guess: break
     if guess < secret:
