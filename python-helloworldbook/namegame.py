@@ -1,3 +1,3 @@
-print "enter your name: "
+print "Enter your name: "
 somebody = raw_input()
-print "HI", somebody, "how are you today?"
+print "Hi, ", somebody, ", how are you today?"
